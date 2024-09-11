@@ -1,3 +1,4 @@
-/* debugging */
+/* A Sass file that prints Hello world in the debug output.*/
 
-@debug "Hello World"
+$debug-message: "Hello world";
+@debug $debug-message;
